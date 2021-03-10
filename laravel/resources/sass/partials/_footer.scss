@@ -1,0 +1,22 @@
+// STYLE: FOOTER 
+footer{
+    text-align: center;
+    padding: 20px;
+    .box-icons{
+        h4{
+            color: $colorFont;
+        }
+        i{
+            font-size: 25px;
+            margin-right: 5px;
+            color: $colorFont;
+            &:hover{
+                color: $colorBc;
+                cursor: pointer;
+            }
+        }
+    }
+    .copyright{
+        color: $colorFont;
+    }
+}

@@ -1,0 +1,17 @@
+// STYLE: CSS MAIN CONTATTO 
+.jumbo-contatti{
+    img{
+        width: 100%;
+    }
+}
+
+.altre-info{
+    text-align: center;
+    span{
+        color: green;
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline green;
+        }
+    }
+}

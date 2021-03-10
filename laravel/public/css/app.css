@@ -1,0 +1,255 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.active {
+  background-color: #B3E5FC;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .container .sezione nav ul {
+  list-style: none;
+}
+
+header .container .sezione nav ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+header .container .sezione nav ul li a {
+  text-decoration: none;
+  color: #010163;
+}
+
+header .container .sezione nav ul li:hover {
+  background-color: #B3E5FC;
+}
+
+.box-home {
+  height: 500px;
+  background-image: url(/images/molisana-home.jpg?cb7db241726fb646d7e1c8553429c07c);
+  background-position: center;
+  background-size: 100%;
+  padding: 20px;
+}
+
+.up .jumbotron {
+  width: 300px;
+  margin-left: 100px;
+  padding: 20px;
+  opacity: 0;
+}
+
+.up:hover {
+  opacity: 0.8;
+}
+
+.up:hover .jumbotron {
+  opacity: 1;
+  color: whitesmoke;
+}
+
+.box-home-center {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  color: #010163;
+}
+
+.down {
+  background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
+  text-align: center;
+}
+
+.down .jumbotron {
+  color: green;
+}
+
+.down .jumbotron h2 {
+  font-size: 30px;
+}
+
+.container-prodotti {
+  width: 1070px;
+  padding: 80px 0px;
+  margin: auto;
+  text-align: center;
+  color: #B3E5FC;
+}
+
+.container-prodotti h2 {
+  font-size: 40px;
+}
+
+.container-prodotti .prodotti {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-prodotti .prodotti .prodotto {
+  flex-basis: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 10px 5px;
+  position: relative;
+}
+
+.container-prodotti .prodotti .prodotto .box-img {
+  padding: 5px;
+}
+
+.container-prodotti .prodotti .prodotto .box-img img {
+  height: 200px;
+}
+
+.container-prodotti .prodotti .prodotto .box-info {
+  width: 250px;
+  position: absolute;
+  padding: 20px;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-prodotti .prodotti .prodotto .box-info a {
+  text-decoration: none;
+  color: #010163;
+}
+
+.container-prodotti .prodotti .prodotto .box-info a:hover {
+  -webkit-text-decoration: underline #010163;
+          text-decoration: underline #010163;
+}
+
+.container-prodotti .prodotti .prodotto:hover .box-img {
+  padding: 0px;
+}
+
+.container-prodotti .prodotti .prodotto:hover .box-img img {
+  opacity: 0.5;
+}
+
+.container-prodotti .prodotti .prodotto:hover .box-info {
+  opacity: 1;
+}
+
+.box-main-prodotto h1 {
+  text-align: center;
+  color: #010163;
+  margin-bottom: 10px;
+}
+
+.box-main-prodotto .box-prodotto .box-info {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 50px;
+  margin-top: -665px;
+}
+
+.box-main-prodotto .box-prodotto .box-img img {
+  width: 100%;
+  display: block;
+}
+
+.info-prodotto {
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+.info-prodotto .box {
+  display: flex;
+}
+
+.info-prodotto .box p {
+  height: 70px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #010163;
+  width: 150px;
+}
+
+.info-prodotto .box i {
+  font-size: 40px;
+}
+
+.info-prodotto .box span {
+  font-size: 30px;
+}
+
+.info-prodotto .box p.center {
+  border-right: 2px solid #010163;
+  border-left: 2px solid #010163;
+}
+
+.info-prodotto .top p {
+  border-bottom: 2px solid #010163;
+}
+
+.info-prodotto .top img {
+  width: 107px;
+}
+
+.descrizione-prodotto {
+  width: 340px;
+  height: 500px;
+  color: #010163;
+  overflow-y: scroll;
+}
+
+.jumbo-contatti img {
+  width: 100%;
+}
+
+.altre-info {
+  text-align: center;
+}
+
+.altre-info span {
+  color: green;
+}
+
+.altre-info span:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline green;
+          text-decoration: underline green;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer .box-icons h4 {
+  color: #010163;
+}
+
+footer .box-icons i {
+  font-size: 25px;
+  margin-right: 5px;
+  color: #010163;
+}
+
+footer .box-icons i:hover {
+  color: #B3E5FC;
+  cursor: pointer;
+}
+
+footer .copyright {
+  color: #010163;
+}
+

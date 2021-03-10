@@ -1,0 +1,66 @@
+// STYLE: CSS MAIN PRODOTTI 
+.container-prodotti{
+    width: 1070px;
+    padding: 80px 0px;
+    margin: auto;
+    text-align: center;
+    color: $colorBc;
+    h2{
+        font-size: 40px;
+    }
+    // STYLE: CSS PRODOTTI 
+    .prodotti{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        // STYLE:CSS PRODOTTO 
+        .prodotto{
+            flex-basis: 250px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            margin: 10px 5px;
+            position: relative;
+            .box-img{
+                padding: 5px;
+                img{
+                    height: 200px;
+                }
+            }
+            .box-info{
+                width: 250px;
+                position: absolute;
+                padding: 20px;
+                opacity: 0;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: $colorFont;
+                    &:hover{
+                        text-decoration: underline $colorFont;
+                    }
+                }
+            }
+            &:hover{
+                .box-img{
+                    padding: 0px;
+                    img{
+                        opacity: 0.5;
+                    }
+                }
+                .box-info{
+                    opacity: 1;
+                }
+            }
+        }
+        // STYLE:CSS PRODOTTO FINE
+
+    }   
+    // STYLE: CSS PRODOTTI FINE
+
+}
+// STYLE: CSS MAIN PRODOTTI FINE

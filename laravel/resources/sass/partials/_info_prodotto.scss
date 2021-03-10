@@ -1,0 +1,44 @@
+// STYLE: CSS PER INFO PRODOTTI 
+.info-prodotto{
+    width: 450px;
+    margin-bottom: 50px;
+
+    .box{
+        display: flex;
+
+        p{
+            height: 70px;
+            padding: 5px 10px;
+            font-size: 15px;
+            color: $colorFont;
+            width: 150px;
+        }
+        i{
+            font-size: 40px;
+        }
+        span{
+            font-size: 30px;
+        }
+        p.center{
+            border-right: 2px solid $colorFont;
+            border-left: 2px solid $colorFont;
+        }
+    }
+
+    .top{
+        p{
+            border-bottom: 2px solid $colorFont;
+        }
+        img{
+            width: 107px;
+        }
+    }
+    
+}
+
+.descrizione-prodotto{
+    width: 340px;
+    height: 500px;
+    color: $colorFont;
+    overflow-y: scroll;
+}

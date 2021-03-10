@@ -1,0 +1,22 @@
+// STYLE. CSS HEADER 
+header{
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .sezione nav ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                padding: 15px;
+                a{
+                    text-decoration: none;
+                    color: $colorFont;
+                }
+                &:hover{
+                    background-color: $colorBc;
+                }
+            }
+        }
+    }
+}

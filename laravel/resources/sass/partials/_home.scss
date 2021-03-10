@@ -1,0 +1,45 @@
+// STYLE: CSS GENERAL BOX HOME 
+.box-home{
+    height: 500px;
+    background-image: url(../../img/molisana-home.jpg);
+    background-position: center;
+    background-size: 100%;
+    padding: 20px;
+}
+
+// STYLE: CSS MAIN BOX UP 
+.up{
+    .jumbotron{
+        width: 300px;
+        margin-left: 100px;
+        padding: 20px;
+        opacity: 0;
+    }
+    &:hover{
+        opacity: 0.8;
+        .jumbotron{
+            opacity: 1;
+            color: whitesmoke;
+        }
+    }
+}
+
+// STYLE: CSS MAIN BOX CENTER
+.box-home-center{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    color: $colorFont;
+}
+
+// STYLE: CSS MAIN BOX DOWN
+.down{
+    background-image: url(../../img/fondo-pag-speciali.jpg);
+    text-align: center;
+    .jumbotron{
+        color: green;
+        h2{
+            font-size: 30px;
+        }
+    }
+}
